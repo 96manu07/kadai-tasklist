@@ -4,10 +4,11 @@
     <c:param name="content">
         <h2>id : ${tasks.id} のタスク編集ページ</h2>
 
-        <form method="POST" action="${pageContext.request.contextPath}/index">
+        <form method="POST" action="${pageContext.request.contextPath}/update">
             <c:import url="_form.jsp" />
         </form>
 
         <a href="${pageContext.request.contextPath}/index">一覧へ戻る</a>
+
     </c:param>
 </c:import>
